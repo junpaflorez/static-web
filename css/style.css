@@ -1,0 +1,38 @@
+body {
+    background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images-1024x682.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div {
+    text-align: center;
+}
+
+h1, h2 {
+    color: white; 
+    font-family: cursive;
+
+}
+
+.nombre {
+    font-size: 50px;
+    background-color: black;
+}
+
+.nombre:hover {
+    color: red;
+}
+
+#mensaje {
+    font-size: 100px;
+}
+
+.imagen_principal {
+    border-radius: 5%; 
+    box-shadow: 1em;
+}
+
+.imagen_principal:hover {
+    border-style: solid;
+    border-color: brown;
+}
