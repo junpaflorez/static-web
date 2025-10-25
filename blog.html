@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!-- Esta es la cabecera de la pagina web -->
+        <div class="container text-center">
+            <nav class="navbar bg-body-tertiary"></nav>
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href="#">
+                            <img src="./img/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            Juan Pablo Florez Caicedo
+                        </a>
+                    </div>
+                    <div class="col">
+                        <h1>Bienvenidos a mi blog</h1>
+                    </div>
+                    <div class="col">
+                        <h2>Redes sociales</h2>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Fin de la cabecera de la pagina web -->
+
+        <!-- informacion de mi pagina web -->
+        <div class="content">
+            <div class="row" style="background-color: chartreuse;">
+                <!-- Columna grande de la izq -->
+                <div class="col-9" style="background-color: blue;">
+                    <!-- Inicio carrusel -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/gato_chillon.webp" style="height: 400px; width: 500px;" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/world-of-warcraft-legion.webp" style="height: 400px; width: 500px;" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                            <img src="./img/homero.gif" style="height: 400px; width: 500px;" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- Fin carrusel -->
+                </div>
+                <!-- Fin de la columna grande de la izq -->
+
+                <!-- Columna pequeña de la derecha -->
+                <div class="col" style="background-color: red;">
+                    columna 2
+                </div>
+                
+                <!-- Fin de la columna pequeña de la derecha -->
+            </div>
+         </div>
+         
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
